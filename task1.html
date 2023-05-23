@@ -6,6 +6,87 @@
         <meta name="viewpoint" content="width=device-width", initial-scale="1.0">
     </head>
     <body>
+        <header>
+            <h1>Форма для додавання викладача</h1>
+        </header>
+        <form>
+            <label for="form1">
+                <b>ПІБ:</b>
+            </label> 
+            <br>
+            <input type = "text" placeholder="Вой Володимир Володимирович" required size="50px" id="form1">
+            <br>
+            
+            <label for="form2">
+                <b>Стать:</b>
+            </label> 
+            <br>
+            <select id="form2" required>
+                <option value="male">Чоловіча</option>
+                <option value="female">Жіноча</option>
+                <option value="other">Інша</option>
+            </select>
+            <br>
         
+            <label for="form3">
+                <b>Дата народження:</b>
+            </label> 
+            <br>
+            <input type = "date" required id="form3">
+            <br>
+        
+            <hr> 
+        
+            <label for="form4">
+                <b>Електронна пошта:</b>
+            </label>
+            <br>
+            <input type = "text" placeholder="Example@gmail.com" required size="50px" id="form4">
+            <br>
+        
+            <label for="form5">
+                <b>Номер телефону:</b>
+            </label>
+            <br>
+            <input type = "text" placeholder="+XXXXXXXXXXXX" required size="50px" id="form5">
+            <br>
+        
+            <label for="form6">
+                <b>Колір фону</b>
+                (не обов'язково)
+                <b>:</b>
+            </label>
+            <br>
+            <input type = "color" id="form6">
+            <br>
+        
+            <hr>
+        
+            <label for="form7">
+                <b>Країна:</b>
+            </label>
+            <br>
+            <input type = "text" required size="50px" id="form7">
+            <br>
+        
+            <label for="form8">
+                <b>Місто:</b>
+            </label>
+            <br>
+            <input type = "text" required size="50px" id="form8">
+            <br>
+        
+            <label for="form9">
+                <b>Коментар</b>
+                (не обов'язково)
+                <b>:</b>
+            </label>
+            <br>
+            <textarea cols="42px" rows="10px" id="form9"></textarea>
+            <br>
+            <br>
+            <button type="submit">Надіслати</button>
+            <button type="reset">Очистити форму</button>
+        </form>
     </body>
 </html>
